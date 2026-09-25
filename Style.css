@@ -1,0 +1,79 @@
+body{
+    background-color: cornsilk;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1;
+}
+header{
+    background-color: blue;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+a{
+    margin: 5px;
+    color: white
+}
+.card{
+    display: flex;
+}
+.project, .skill, .hobbies{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 200px;
+    margin: 10px;
+}
+.project{
+    background-color: greenyellow;
+}
+.skill{
+    background-color: lightskyblue;
+}
+.hobbies{
+    background-color: aquamarine;
+}
+footer{
+    background-color: blue;
+    margin-top: 80px;
+    padding: 30px;
+    color: white;
+}
+label{
+    font-weight: bold;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 95%;
+}
+textarea{
+    padding: 5px;
+    width: 96%;
+    height: 100px;
+}
+form{
+    padding: 20px;
+    background-color: white;
+    width: 600px;
+    border: 3px solid lightblue;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+}
+#output{
+    margin: 20px;
+    font-size: 20px;
+}
