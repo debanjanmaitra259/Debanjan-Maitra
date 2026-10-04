@@ -1,5 +1,6 @@
 body{
     background-color: cornsilk;
+    font-family: 'Times New Roman', Times, serif;
 }
 h1{
     font-size: 50px;
@@ -15,26 +16,26 @@ header{
 }
 a{
     margin: 5px;
-    color: white
+    color: white;
+    font-size: 20px;
 }
 .card{
     display: flex;
 }
-.project, .skill, .hobbies{
+.project, .Edu_Details, .skill{
     padding: 10px;
     border: 2px solid black;
     border-radius: 10px;
     width: 500px;
-    height: 200px;
     margin: 10px;
 }
 .project{
     background-color: greenyellow;
 }
-.skill{
+.Edu_Details{
     background-color: lightskyblue;
 }
-.hobbies{
+.skill{
     background-color: aquamarine;
 }
 footer{
@@ -42,6 +43,7 @@ footer{
     margin-top: 80px;
     padding: 30px;
     color: white;
+    margin-left: 0px;
 }
 label{
     font-weight: bold;
